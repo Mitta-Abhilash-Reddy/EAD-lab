@@ -1,1 +1,1 @@
-# EAD-lab
+# EAD-LAB
