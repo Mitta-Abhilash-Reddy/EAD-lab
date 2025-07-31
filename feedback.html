@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+</head>
+<body>
+    <form style="max-width: 400px; margin:0 auto;text-align: left;" action="/action.php">
+    <h1>Feedback Form </h1>
+    <div style="text-align: center;">
+
+            
+<label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your" required>
+            <br><br>
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback" required></textarea>
+            <br><br>
+            <label for="satisfaction">How satisfied are ?</label><br>
+            <input type="radio" id="very_satisfied" name="satisfaction" value="very_satisfied">
+            <label for="very_satisfied">Satisfied</label><br>
+            <input type="radio" id="netural" name="satisfaction" value="neutral">
+            <label for="neutral">Neutral</label><br>
+            <input type="radio" id="dissatisfied" name="satisfaction" value="dissatisfied">
+            <label for="dissatisfied">unsatisfied</label><br>
+            <br><br>
+            <button type="submit">Submit</button>
+
+    </div>
+
+            
+    </form>
+</body>
+</html>
