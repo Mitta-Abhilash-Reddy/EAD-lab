@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Records</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container my-4">
+
+    <!-- Filter -->
+    <form class="mb-3">
+      <input type="text" class="form-control" placeholder="Search student...">
+    </form>
+
+    <!-- Alert (example: no records) -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      No records found!
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <!-- Table -->
+    <div class="table-responsive">
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr><th>ID</th><th>Name</th><th>Course</th><th>Grade</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Amit</td><td>Math</td><td>A</td></tr>
+          <tr><td>2</td><td>Sara</td><td>Science</td><td>B</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

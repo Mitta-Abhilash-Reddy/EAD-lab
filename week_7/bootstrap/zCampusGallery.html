@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Gallery</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Carousel -->
+  <div id="campusCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="campus1.jpg" class="d-block w-100" alt="Campus 1">
+        <div class="carousel-caption">
+          <h5>Campus Life</h5>
+          <button class="btn btn-sm btn-light">Explore</button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="campus2.jpg" class="d-block w-100" alt="Campus 2">
+        <div class="carousel-caption">
+          <h5>Events</h5>
+          <button class="btn btn-sm btn-warning">Join</button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="campus3.jpg" class="d-block w-100" alt="Campus 3">
+        <div class="carousel-caption">
+          <h5>Community</h5>
+          <button class="btn btn-sm btn-success">Connect</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="container my-4">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5>Library</h5>
+            <p>Books and digital resources.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5>Labs</h5>
+            <p>State-of-the-art facilities.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5>Sports</h5>
+            <p>Playgrounds and indoor games.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration System</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navbar with Register button -->
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Student Portal</a>
+      <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="registerModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header"><h5 class="modal-title">Register</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <input type="text" class="form-control mb-2 is-valid" placeholder="Name">
+            <input type="email" class="form-control mb-2 is-invalid" placeholder="Email">
+            <input type="password" class="form-control mb-2" placeholder="Password">
+            <select class="form-select mb-2">
+              <option>Male</option><option>Female</option>
+            </select>
+            <div class="mb-2">
+              <label>Skills:</label>
+              <input type="checkbox"> C++
+              <input type="checkbox"> Java
+            </div>
+            <select class="form-select mb-2">
+              <option>India</option><option>USA</option>
+            </select>
+            <button class="btn btn-primary w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
